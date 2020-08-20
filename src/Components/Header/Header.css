@@ -1,0 +1,75 @@
+.header{
+    display: flex;
+    flex: 1;
+    justify-content: space-between !important;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+.header__vpn{
+    display: flex;
+    margin-right: 20px;
+}
+
+.header__mail{
+    display: flex;
+    margin-left: 30px;
+}
+.header__mail > h4 {
+    color: #7d8597;
+}
+.header__how{
+    display: flex;
+    margin-left: -8rem;
+}
+.header__how > h4{
+    color: #7d8597;
+    
+}
+.header__user{
+    align-items: center;
+    margin-right: 70px;
+}
+.header__h4{
+    color: #33415c;
+}
+.header__div{
+    margin-left: 5px;
+}
+.header__star{
+    color: #023e8a;
+}
+.header__mail{
+    color: #023e8a;
+}
+.header__exit{
+    color: #023e8a;
+}
+.header__button{
+    justify-content: space-around !important;
+    background-color: var(--twitter-background) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 70px;
+    height: 50px !important;
+    margin-left: 50px !important;
+    border: 3px solid #0096c7 !important;
+}
+
+@media screen and (max-width: 700px) {
+    .header__how{
+        display: flex;
+        margin-left: 0px;
+    }
+    .header__mail{
+        display: flex;
+        margin-left: 0px;
+    }
+  }
